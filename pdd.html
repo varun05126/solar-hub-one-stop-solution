@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Hub - Your One-Stop Solar Solution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9800, #ff5722);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .hero {
+            padding: 100px 20px 50px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .btn {
+            background: #fff;
+            color: #ff5722;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #ffcc80;
+        }
+        .services, .products, .contact, .testimonials {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .testimonials {
+            font-style: italic;
+        }
+        .product-item {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .product-item img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .contact {
+            display: none;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .price-link {
+            cursor: pointer;
+            text-decoration: underline;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>Solar Hub - Power Your Future</header>
+    
+    <div class="container">
+        <section class="hero">
+            <h1>Reliable Solar Solutions at One Place</h1>
+            <p>High-quality solar kits, expert support, and seamless service.</p>
+            <a href="#products" class="btn">Explore Our Products</a>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Why Choose Us?</h2>
+            <p>✅ Premium Quality Solar Kits</p>
+            <p>✅ Expert Installation & Support</p>
+            <p>✅ Affordable Pricing & Financing Options</p>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Best-Selling Solar Kits</h2>
+
+            <div class="product-item">
+                <img src="home solar kit.jpg" alt="Home Solar Kit">
+                <h3>Home Solar Kit (5KW)</h3>
+                <p>Perfect for residential use, reducing electricity bills significantly.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="solar solutions.jpg" alt="Commercial Solar Solution">
+                <h3>Commercial Solar Solution</h3>
+                <p>Designed for businesses looking to cut energy costs and boost sustainability.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="solar-led-light.jpg" alt="Solar LED Light">
+                <h3>Solar LED Light</h3>
+                <p>Energy-efficient lighting solution for outdoor and emergency use.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="offgrid.jpg" alt="Off-Grid Solar System">
+                <h3>Off-Grid Solar System</h3>
+                <p>Best for remote locations where power supply is unreliable.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="powerbank.jpg" alt="Solar Power Bank">
+                <h3>Solar Power Bank</h3>
+                <p>Portable power backup for your devices anytime, anywhere.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="solar-water-heater.jpg" alt="Solar Water Heater">
+                <h3>Solar Water Heater</h3>
+                <p>Cost-effective and energy-saving hot water solution.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="solar-cctv.jpg" alt="Solar CCTV Camera">
+                <h3>Solar CCTV Camera</h3>
+                <p>Wireless security powered by the sun, ensuring 24/7 surveillance.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+            <div class="product-item">
+                <img src="solar water pump.jpg" alt="Solar Water Pump">
+                <h3>Solar Water Pump</h3>
+                <p>Efficient water pumping solution for farms and irrigation.</p>
+                <p><strong><span class="price-link">Price: contact us for more information</span></strong></p>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <p>Presently, we don't have any customers, so be the first to review our product.</p>
+        </section>
+
+        <section id="contact-details" class="contact">
+            <h2>Get in Touch</h2>
+            <p>📞 Call Us: +91 72071 05126</p>
+            <p>📧 Email: malthumkarvarun@gmail.com</p>
+            <p>📍 Location: Hyderabad, India</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Solar Hub | All Rights Reserved
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const priceLinks = document.querySelectorAll(".price-link");
+            const contactSection = document.getElementById("contact-details");
+
+            priceLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    contactSection.style.display = "block";
+                    contactSection.scrollIntoView({ behavior: "smooth" });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
